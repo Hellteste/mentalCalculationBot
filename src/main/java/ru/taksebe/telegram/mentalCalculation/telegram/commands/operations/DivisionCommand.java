@@ -28,7 +28,7 @@ public class DivisionCommand extends OperationCommand {
                 this.getCommandIdentifier()));
         sendAnswer(absSender, chat.getId(), Collections.singletonList(OperationEnum.DIVISION), this.getDescription(),
                 this.getCommandIdentifier(), userName);
-        logger.debug(String.format("Пользователь %s. Завершено выполнение команды %s", userName,
+        logger.debug(String.format("Пользователь %s. Завершено выполнение команд %s", userName,
                 this.getCommandIdentifier()));
     }
 }
